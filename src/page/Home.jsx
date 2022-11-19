@@ -6,10 +6,17 @@ import TopPlace from "../components/TopPlace";
 function Home() {
   return (
     <div className="wrapper">
-      <HorizontalScroll reverseScroll={true}  config={{ stiffness: 5, damping: 12 }} animValues= { 200 }>
+      <HorizontalScroll
+        reverseScroll={true}
+        config={{
+          stiffness: 15,
+          damping: 12,
+        }}
+        animValues={200}
+      >
         <Cards />
-        <TopPlace/>
-        <Tours/>
+        <TopPlace />
+        <Tours />
       </HorizontalScroll>
     </div>
   );

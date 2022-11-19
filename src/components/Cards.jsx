@@ -24,9 +24,6 @@ function Cards() {
             Discover <span>Nigeria</span>
           </h1>
           <p>take a glimpse of africa’s bewitching attractions</p>
-          <button>
-            Explore
-          </button>
         </motion.div>
       </div>
 
